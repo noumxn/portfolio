@@ -6,9 +6,12 @@ import { BsGithub } from "react-icons/bs"
 const projects = [
   {
     name: "myDE",
-    technologies: [],
+    technologies: ["React", "NodeJS", "Express", "JWT", "Docker", "MongoDB Atlas"],
     description:[
-        "",
+        "Developed a versatile web-based code editor supporting five programming languages (Python, C++, Java, Rust, Node.js) using a microservice architecture with a NodeJS backend and React frontend.",
+        "Integrated robust security features, including rate limiting, password hashing, JWT authentication, and XSS prevention.",
+        "Seamlessly handled user-submitted code and data through Express APIs, efficiently managing data in a MongoDB Atlas database",
+        "Leveraged Docker for efficient code execution, utilizing pre-built images from Docker Hub.",
     ],
     github: "https://github.com/noumxn/myDE",
   },
@@ -33,6 +36,17 @@ const projects = [
       "Developed collaborative features that facilitate team communication and task coordination increasing team efficiency by 10%."
     ],
     github: "https://github.com/noumxn/prioriq",
+  },
+  {
+    name: "bc",
+    technologies: ["Python", "AST", "typing"],
+    description: [
+      "Created a basic calculator language using Python, prioritizing arbitrary precision for enhanced accuracy.",
+      "Implemented an efficient lexer for input expression tokenization, leveraging Python's lexical analysis.",
+      "Designed a parser with Abstract Syntax Trees (AST) for structured expression interpretation.",
+      "Constructed an evaluator supporting interactive execution with advanced math operations and arbitrary precision."
+    ],
+    github: "https://github.com/noumxn/bc",
   },
 ]
 
