@@ -67,7 +67,7 @@ const colorClasses = [
   "bg-blue-300",
   "bg-green-300",
   "bg-red-300",
-  "bg-yellow-300",
+  "bg-yellow-200",
   "bg-purple-300",
   "bg-pink-300",
   "bg-indigo-300",
@@ -106,12 +106,11 @@ const ProjectsSection = () => {
                         )
                       })}
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
+                    <Link href={project.github} passHref legacyBehavior>
+                      <a target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform cursor-pointer">
+                        <BsGithub size={30} />
+                      </a>
+                    </Link>
                     </div>
                   </div>
                 </div>

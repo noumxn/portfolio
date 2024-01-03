@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import { Link } from "react-scroll/modules"
+import { Link } from "react-scroll"
 
 const HeroSection = () => {
   return (
@@ -13,7 +13,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="experience"
-            className="mr-5 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="inline-block mr-5 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -24,7 +24,7 @@ const HeroSection = () => {
           </Link>
           <Link
             to="projects"
-            className="mr-5 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="inline-block mr-5 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -35,7 +35,7 @@ const HeroSection = () => {
           </Link>
           <a
             href="/resume.pdf"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="inline-block text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             download
           >
             Resume

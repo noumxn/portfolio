@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
 import { useState } from "react"
-import { Link } from "react-scroll/modules"
+import { Link } from "react-scroll"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
@@ -35,10 +35,15 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
-              <div className="container flex items-center space-x-2">
+            <Link 
+              to="home"
+              className="container flex items-center space-x-2"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
                 <h2 className="text-2xl font-bold">Nouman Syed</h2>
-              </div>
             </Link>
             <div className="md:hidden">
               <button
