@@ -7,9 +7,11 @@ const experience = [
     position: "Course Assistant",
     technologies: ["Python", "NodeJS", "TypeScript", "Puppeteer", "Axios", "MongoDB", "Canvas API"],
     description: [
-        "Design assignments to facilitate an optimal learning experience for students.",
-        "Develop grading scripts for accurately assessing and evaluating submitted assignments, reducing grading time from approximately 100 - 120 hours to a few minutes weekly for ~240 submissions.",
-        "Conduct Office Hours and monitor Slack, actively assisting students by answering questions about their assignments, projects, as well as addressing any queries pertaining to course concepts and topics.",
+        "Designed course assignments to facilitate and optimal learning experience for students.",
+        "Automated submission preprocessing and grading using NodeJS, Puppeteer, Axios, and MongoDB, efficiently handling over 250 student submissions.",
+        "Engineered a custom Typescript-based assertion library to integrate with grading scripts.",
+        "Reduced grading time from 100-120 hours to minutes weekly by efficiently integrating the Canvas API with the grading solution.",
+        "Provided student support through Office Hours and Slack, addressing course-related inquiries, and clarifying key concepts.",
     ],
   },
   {
@@ -17,9 +19,9 @@ const experience = [
     position: "Open Source Contributor",
     technologies: ["Python", "JavaScript", "GnuPG", "Docker"],
     description: [
-        "Improved security requirements by updating the signature verification process in the SecureDrop project.",
-        "Upgraded performance of application by 30% while downloading various browsers, by using the lighter and more efficient gpgv verification tool along with keyring instead of gpg.",
-        "Achieved more efficient verification process, improved security, and reduced dependencies as a result.",
+        "Revamped SecureDrop's security signature verification process, leveraging Python and JavaScript for backend enhancements.",
+        "Boosted application performance while downloading browsers by 30% through Docker-based deployment optimizations and substituting the gpg verification tool with gpgv and keyring.",
+        "Contributed to a significant reduction in dependencies and streamlined operations, elevating security, and operational efficiency.",
     ],
   },
 ]

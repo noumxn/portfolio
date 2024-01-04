@@ -13,7 +13,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="experience"
-            className="inline-block mr-5 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="inline-block mr-5 text-neutral-100 font-semibold px-6 py-3 bg-gray-500 rounded shadow hover:bg-gray-600"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -24,7 +24,7 @@ const HeroSection = () => {
           </Link>
           <Link
             to="projects"
-            className="inline-block mr-5 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="inline-block mr-5 text-neutral-100 font-semibold px-6 py-3 bg-gray-500 rounded shadow hover:bg-gray-600"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -35,7 +35,7 @@ const HeroSection = () => {
           </Link>
           <a
             href="/resume.pdf"
-            className="inline-block text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="inline-block mr-5 mt-5 text-neutral-100 font-semibold px-6 py-3 bg-gray-500 rounded shadow hover:bg-gray-600"
             download
           >
             Resume
