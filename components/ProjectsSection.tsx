@@ -6,18 +6,18 @@ import { BsGithub } from "react-icons/bs"
 const projects = [
   {
     name: "myDE",
-    technologies: ["React", "NodeJS", "Express", "JWT", "Docker", "MongoDB Atlas"],
+    technologies: ["React", "NodeJS", "Express", "JWT", "Docker", "Microservices", "Heroku", "MongoDB Atlas"],
     description:[
-        "Developed a versatile web-based code editor supporting five programming languages (Python, C++, Java, Rust, Node.js) using a microservice architecture with a NodeJS backend and React frontend.",
-        "Integrated robust security features, including rate limiting, password hashing, JWT authentication, and XSS prevention.",
-        "Seamlessly handled user-submitted code and data through Express APIs, efficiently managing data in a MongoDB Atlas database",
-        "Leveraged Docker for efficient code execution, utilizing pre-built images from Docker Hub.",
+        "Developed a versatile web-based code editor supporting five programming languages (Python, C++, Java, Rust, JavaScript) using a microservice architecture with a NodeJS backend and React frontend.",
+        "Integrated robust security features, including rate-limiting, password hashing, JWT authentication, and XSS prevention.",
+        "Seamlessly handled user-submitted code and data through Express APIs, and efficiently managed data in a MongoDB Atlas database.",
+        "Leveraged Docker for efficient code execution, created and utilized pre-built images and stored them on Docker Hub.",
     ],
     github: "https://github.com/noumxn/myDE",
   },
   {
     name: "Web-A11y",
-    technologies: ["NodeJS", "JSDOM", "Axios", "Mocha", "Chai", "Github Workflows"],
+    technologies: ["NodeJS", "JSDOM", "Axios", "Mocha", "Chai", "Github Workflows", "JavaScript", "HTML", "CSS"],
     description: [
         "Developed a NodeJS tool for AA level WCAG 2.2 compliance, leveraging JSDOM for efficient HTML content manipulation on webpages.",
         "Enhances online experiences by achieving a 70% increase in accessibility and expanding the potential userbase by up to 21%.",

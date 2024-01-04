@@ -7,9 +7,9 @@ const experience = [
     position: "Course Assistant",
     technologies: ["Python", "NodeJS", "TypeScript", "Puppeteer", "Axios", "MongoDB", "Canvas API"],
     description: [
-        "Collaborate in designing assignments to facilitate an optimal learning experience for students.",
+        "Design assignments to facilitate an optimal learning experience for students.",
         "Develop grading scripts for accurately assessing and evaluating submitted assignments, reducing grading time from approximately 100 - 120 hours to a few minutes weekly for ~240 submissions.",
-        "Conduct Office Hours and monitored Slack, actively assisting students by answering questions about their assignments, projects, as well as addressing any queries pertaining to course concepts and topics.",
+        "Conduct Office Hours and monitor Slack, actively assisting students by answering questions about their assignments, projects, as well as addressing any queries pertaining to course concepts and topics.",
     ],
   },
   {
