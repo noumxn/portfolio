@@ -10,7 +10,7 @@ const experience = [
         "Designed course assignments to facilitate and optimal learning experience for students.",
         "Automated submission preprocessing and grading using NodeJS, Puppeteer, Axios, and MongoDB, efficiently handling over 250 student submissions.",
         "Engineered a custom Typescript-based assertion library to integrate with grading scripts.",
-        "Reduced grading time from 100-120 hours to minutes weekly by efficiently integrating the Canvas API with the grading solution.",
+        "Reduced grading time from 100-120 hours to a few minutes weekly by efficiently integrating the Canvas API with the grading solution.",
         "Provided student support through Office Hours and Slack, addressing course-related inquiries, and clarifying key concepts.",
     ],
   },
