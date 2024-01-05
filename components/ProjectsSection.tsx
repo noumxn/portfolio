@@ -6,9 +6,9 @@ import { BsGithub } from "react-icons/bs"
 const projects = [
   {
     name: "myDE",
-    technologies: ["React", "NodeJS", "Express", "JWT", "Docker", "Microservices", "Heroku", "MongoDB Atlas"],
+    technologies: ["React", "Node.js", "Express", "JWT", "Docker", "Microservices", "Heroku", "MongoDB Atlas"],
     description:[
-        "Developed a versatile web-based code editor supporting 5 programming languages (Python, C++, Java, Rust, JavaScript) using a microservice architecture with a NodeJS backend and React frontend.",
+        "Developed a versatile web-based code editor supporting 5 programming languages (Python, C++, Java, Rust, JavaScript) using a microservice architecture with a Node.js backend and React frontend.",
         "Seamlessly handled user-submitted code and data through Express APIs, and efficiently managed data in a MongoDB Atlas database.",
         "Leveraged Docker for efficient code execution, created and utilized pre-built images and stored them on Docker Hub.",
         "Integrated robust security features, like limiting Docker CPU/memory usage, rate-limiting, JWT authentication, and  XSS prevention.",
@@ -18,9 +18,9 @@ const projects = [
   },
   {
     name: "Web-A11y",
-    technologies: ["NodeJS", "JSDOM", "Axios", "Mocha", "Chai", "Github Workflows", "JavaScript", "HTML", "CSS"],
+    technologies: ["Node.js", "JSDOM", "Axios", "Mocha", "Chai", "Github Workflows", "JavaScript", "HTML", "CSS"],
     description: [
-        "Developed a NodeJS tool for AA level WCAG 2.2 compliance, leveraging JSDOM for efficient HTML content manipulation on webpages.",
+        "Created a Node.js Accessibility Testing tool for AA level WCAG 2.2 compliance, used JSDOM to efficiently manipulate webpage content.",
         "Achieved 70% coverage on accessibility issues, enhancing user experience and expanding the potential userbase by 10%.",
         "Utilized the Mocha testing framework and the Chai assertion library for reliable testing and implemented Github Workflows for seamless integration and continuous testing, ensuring reliability and accuracy of accessibility assessment.",
         "Devised a severity ranking system for accessibility issues, facilitating efficient prioritization and resolution of high-impact issues.",
@@ -29,9 +29,9 @@ const projects = [
   },
   {
     name: "PrioriQ",
-    technologies: ["MongoDB", "NodeJS", "Express", "JavaScript", "Handlebars", "jQuery", "Ajax", "HTML", "CSS"],
+    technologies: ["MongoDB", "Node.js", "Express", "JavaScript", "Handlebars", "jQuery", "Ajax", "HTML", "CSS"],
     description: [
-      "Engineered a robust Express-powered distributed Task Management web application with a NodeJS backend and a MongoDB database.",
+      "Engineered a robust Express-powered distributed Task Management web application with a Node.js backend and a MongoDB database.",
       "Implemented a sophisticated ‘Priority Based Preemptive Scheduling’ algorithm to automate and optimize task prioritization.",
       "Streamlined decision-making by dynamically prioritizing tasks based on their priority and deadlines, reducing prioritization time by 50%.",
       "Developed collaborative features that facilitate team communication and task coordination increasing team efficiency by 10%."
