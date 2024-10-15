@@ -3,6 +3,19 @@ import SlideUp from "./SlideUp"
 
 const experience = [
   {
+    company: "RecruitEye",
+    position: "Software Engineer",
+    technologies: ["Node.js", "JSDoc", "React", "Vite", "Express", "Python", "Flask", "NGINX", "OpenAI", "MongoDB Atlas", "PostgreSQL", "EC2", "Lambda", "S3", "Go", "Rust"],
+    description: [
+        "Led the development lifecycle of the RecruitEye platform, making all architecture, design, and development decisions. Mentored 2 junior software engineers, providing guidance and fostering growth within the team.",
+        "Architected a microservices platform on AWS (S3, Lambda, EC2) to ensure scalability and reliability, optimizing system performance. Reduced latency by 40% through API Gateway load balancing, enhancing responsiveness.",
+        "Implemented CI/CD pipelines, reducing deployment time by 50%, streamlining the release process. Increased code coverage to 85% through automated testing frameworks (unit, integration, E2E), improving code reliability.",
+        "Reduced cloud infrastructure costs by 20% through strategic changes while maintaining performance.",
+        "Negotiated a 50% reduction in the procurement costs of job post data with major aggregators saving us $20,000 per annum, lowering operational expenses. Processed 6 million job postings daily via an automated AWS Lambda pipeline, indexing the database to improve filtering speeds for expired jobs.",
+        "Collaborated with cross-functional teams to enhance system performance, job-matching algorithms, and UI/UX, driving system efficiency."
+    ],
+  },
+  {
     company: "Stevens Institute of Technology",
     position: "Course Assistant",
     technologies: ["Python", "Node.js", "TypeScript", "Puppeteer", "Axios", "MongoDB", "Canvas API"],
@@ -12,6 +25,17 @@ const experience = [
         "Reduced grading time from 100-120 hours to a few minutes weekly by efficiently integrating the Canvas API with the grading solution.",
         "Designed course assignments to facilitate and optimal learning experience for students.",
         "Provided student support through Office Hours and Slack, addressing course-related inquiries, and clarifying key concepts.",
+    ],
+  },
+  {
+    company: "CodeKindle",
+    position: "Software Engieer",
+    technologies: ["Node", "Express", "PostreSQL", "NGINX", "Mocha", "Chai", "D3.js", "EC2", "CircleCI"],
+    description: [
+        "Collaborated in the development of a Employee Survey Tool, enabling over 12,000 employees to submit feedback.",
+        "Designed and implemented user-friendly survey templates using React. Utilized D3.js to create interactive dashboards, allowing users to access survey statistics and analysis, increasing in dashboard usage by 30%.",
+        "Developed the backend with Node.js and Express for seamless integration with a PostgreSQL database to store and retrieve survey responses and user data, achieving a P95 response time of less than 1200 ms",
+        "Conducted thorough testing using Mocha and Chai, achieving a code coverage of 90% on unit tests and ensuring high reliability and stability of the application. Doc",
     ],
   },
   {
