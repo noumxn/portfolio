@@ -5,16 +5,16 @@ import { BsGithub } from "react-icons/bs"
 
 const projects = [
   {
-    name: "myDE",
-    technologies: ["React", "Node.js", "Express", "JWT", "Docker", "Microservices", "Heroku", "MongoDB Atlas"],
+    name: "EchoLab",
+    technologies: ["React", "Node.js", "Express", "AWS", "Socker.io", "Agora", "JWT", "Docker", "Microservices", "MongoDB Atlas"],
     description:[
-        "Developed a versatile web-based code editor supporting 5 programming languages (Python, C++, Java, Rust, JavaScript) using a microservice architecture with a Node.js backend and React frontend.",
-        "Seamlessly handled user-submitted code and data through Express APIs, and efficiently managed data in a MongoDB Atlas database.",
-        "Leveraged Docker for efficient code execution, created and utilized pre-built images and stored them on Docker Hub.",
-        "Integrated robust security features, like limiting Docker CPU/memory usage, rate-limiting, JWT authentication, and  XSS prevention.",
-        "Conducted load testing with up to 10,000 concurrent requests and benchmarked a P95 latency of 1100ms."
+        "Developed a web-based collaborative code editor that supports 5 programming languages using a microservice architecture with Node.js backend, React frontend and an Agora service for managing Audio Chat.",
+        "Managed user data seamlessly through Express APIs and optimized data storage using a MongoDB Atlas cluster.",
+        "Deployed code execution service on EC2 with Docker Daemon and pre-built DockerHub images.",
+        "Integrated security features, like Docker CPU/mem limits, rate-limiting, JWT authentication, XSS prevention.",
+        "Deployed all services using AWS EC2 instance and Docker, ensuring efficient scalability and management."
     ],
-    github: "https://github.com/noumxn/myDE",
+    github: "https://github.com/noumxn/EchoLab",
   },
   {
     name: "Web-A11y",

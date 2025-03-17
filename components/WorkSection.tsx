@@ -7,17 +7,16 @@ const experience = [
     position: "Software Engineer",
     technologies: ["Node.js", "JSDoc", "React", "Vite", "Express", "Python", "Flask", "NGINX", "OpenAI", "MongoDB Atlas", "PostgreSQL", "EC2", "Lambda", "S3", "Go", "Rust"],
     description: [
-        "Led the development lifecycle of the RecruitEye platform, making all architecture, design, and development decisions. Mentored 2 junior software engineers, providing guidance and fostering growth within the team.",
-        "Architected a microservices platform on AWS (S3, Lambda, EC2) to ensure scalability and reliability, optimizing system performance. Reduced latency by 40% through API Gateway load balancing, enhancing responsiveness.",
-        "Implemented CI/CD pipelines, reducing deployment time by 50%, streamlining the release process. Increased code coverage to 85% through automated testing frameworks (unit, integration, E2E), improving code reliability.",
-        "Reduced cloud infrastructure costs by 20% through strategic changes while maintaining performance.",
-        "Negotiated a 50% reduction in the procurement costs of job post data with major aggregators saving us $20,000 per annum, lowering operational expenses. Processed 6 million job postings daily via an automated AWS Lambda pipeline, indexing the database to improve filtering speeds for expired jobs.",
-        "Collaborated with cross-functional teams to enhance system performance, job-matching algorithms, and UI/UX, driving system efficiency."
+        "Led the development lifecycle of 5 core services for the AI job-board platform, making architectural, design, and development decisions. Collaborated with cross-functional teams to enhance system performance and efficiency.",
+        "Developed AI-powered Resume and Cover Letter Generation services with 25+ dynamic, ATS-friendly LaTeX templates. Used LLMs with LangChain for resume parsing and data extraction, content creation, job-specific customization. Implemented CloudFront to cache PDFs, reducing latency by 70%, and integrated S3 for storage.",
+        "Constructed an ETL pipeline to ingest 6.1 million daily job postings. Optimized MongoDB Atlas with partitioned collections to enhance query performance and scaling, reducing manual intervention by 95%.",
+        "Engineered robust architecture for the pipeline using Lambda, S3, and a dedicated MongoDB cluster, achieving 99.9% uptime and reliability across workflows by aligning uptime with fault-tolerant workflows. Leveraged AWS Step Functions and CloudWatch for comprehensive monitoring, automatic retries, and seamless error handling.",
+        "Streamlined job data operations with Go, using goroutines for concurrent bulk updates and partitioned MongoDB collections, enabling over 300K+ daily job updates in under 10 minutes and peak memory usage below 1GB.",
     ],
   },
   {
     company: "Stevens Institute of Technology",
-    position: "Course Assistant",
+    position: "Graduate Course Assistant",
     technologies: ["Python", "Node.js", "TypeScript", "Puppeteer", "Axios", "MongoDB", "Canvas API"],
     description: [
         "Automated submission preprocessing and grading using Node.js, Puppeteer, Axios, and MongoDB, efficiently handling over 250 student submissions.",
@@ -30,12 +29,12 @@ const experience = [
   {
     company: "CodeKindle",
     position: "Software Engieer",
-    technologies: ["Node", "Express", "PostreSQL", "NGINX", "Mocha", "Chai", "D3.js", "EC2", "CircleCI"],
+    technologies: ["Node.js", "JSDoc", "Express", "PostreSQL", "NGINX", "Jest", "D3.js", "AWS", "CircleCI", "RabbitMQ", "Redis"],
     description: [
-        "Collaborated in the development of a Employee Survey Tool, enabling over 12,000 employees to submit feedback.",
-        "Designed and implemented user-friendly survey templates using React. Utilized D3.js to create interactive dashboards, allowing users to access survey statistics and analysis, increasing in dashboard usage by 30%.",
-        "Developed the backend with Node.js and Express for seamless integration with a PostgreSQL database to store and retrieve survey responses and user data, achieving a P95 response time of less than 1200 ms",
-        "Conducted thorough testing using Mocha and Chai, achieving a code coverage of 90% on unit tests and ensuring high reliability and stability of the application. Doc",
+        "Collaborated in the development of a Employee Experience Platform, supporting feedback submissions, pulse surveys, and anonymous Q&A, enabling over 12,000 employees to engage continuously.",
+        "Designed and implemented highly customizable survey templates with dynamic question branching using React. Integrated D3.js to build interactive dashboards with comparative analytics, increasing usage by 45%.",
+        "Architected a microservice backend with Node.js, Express, and RabbitMQ, ensuring seamless communication across services. Utilized PostgreSQL and Redis caching, achieving a P95 response time of 950ms.",
+        "Conducted integration and E2E tests with Jest, and Cypress, achieving 99% code coverage and robust stability.",
     ],
   },
   {
